@@ -1,0 +1,10 @@
+# Files to copy into a new git worktree created via Claude Code's worktree feature.
+# gitignore-style globs. Use this for gitignored files a worktree still needs so a
+# fresh worktree is usable without re-doing local setup. One pattern per line.
+
+# Your local, gitignored Claude Code overrides (output style, extra permissions).
+.claude/settings.local.json
+
+# Local environment / secrets needed to run the pipeline (HF_TOKEN, etc.).
+.env
+.env.*
