@@ -1,6 +1,6 @@
 {
   "name": "@gabo-routine/gabo-skills",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Write-once AI coding skills, agents, personas, and config — installed into Claude Code, Cursor, Copilot, Windsurf, or Codex.",
   "bin": {
     "gabo-skills": "bin/cli.js"
